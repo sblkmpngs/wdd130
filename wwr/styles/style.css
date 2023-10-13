@@ -1,12 +1,18 @@
-.content {
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Mooli&display=swap');
+
+
+
+div content {
     max-width: 1600px;
+    max-height: 1600px;
     margin: 0 auto;
+    
 }
 
-main {
-    width: 300px;
-    margin: 0 auto;
+#logo-link{
+    padding-top: 5px;
 }
+
 
 #mountains{
     width: 400px;
@@ -18,6 +24,7 @@ main {
     text-align: center;
     color: #d06305;
     text-decoration: none;
+    padding: 35px;
  }
 
  #hero-msg h1, #hero-msg h4 {
@@ -33,12 +40,21 @@ main {
  }
 
  #background {
-    height: 500px;
+    height: 725px;
  }
 
  body {
     background-color: #7cd4d4;
+    font-family: Mooli, sans-serif,Arial;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
  }
+
+ h2{
+    margin: 0;
+ }
+
  header {
     background-color: #ffffff;
  }
@@ -48,35 +64,50 @@ main {
  }
 
 .home-title {
-    color: black;
+    color: #ffffff;
+    font-family: "Croissant One", cursive,"Rock Salt";
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4{
-    background-color: #ffffff;
+    
     color: black;
 }
 
 .book,.join{
-    text-align: center;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #d06305;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
+
 .book:hover,.join:hover{
-    color: #d06305;   
+    color: black;   
 }
 .msg h2{
-    background-color: #ffffff;
+    
     color: black;
 }
 .msg p{
-    background-color: #ffffff;
+    font-size: 0.8em;
     color: black;
+    padding-bottom: 15px;
 }
 
+.msg{
+    line-height: 1.5em;
+    padding: 35px;
+}
 footer{
     background-color: #d06305;
     color: black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer a{
     color: white;
@@ -84,13 +115,29 @@ footer a{
     text-decoration: none;
 }
 footer a:hover{
-    background-color: #7cd4d4;
+    background-color: #ffffff;
     color: black;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.logo{
+    width: 80px;
 }
 
 .icon{
     width: 50px;
+    padding-top: 10px;
 }
 #hero-img{
     width: 100%;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #ffffff;
+}
+main section img {
+    box-sizing: border-box;
 }
