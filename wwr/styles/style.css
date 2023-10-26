@@ -163,12 +163,17 @@ nav {
     display: flex;
     justify-content: space-around;
 }
-
+#hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
 #hero-img{
     width: 100%;
 
 }
 #hero-box {
+    width: 100%;
     grid-column: 1/4;
     grid-row: 1/3;
     z-index: -1;
@@ -179,7 +184,7 @@ nav {
 #hero-msg {
     grid-column: 2/3;
     grid-row: 1/2;
-    margin-top: 100px;
+    margin-top: 400px;
 }
 main.home-grid{
     display: grid;
