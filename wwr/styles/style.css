@@ -143,12 +143,7 @@ footer .social img{
     width: 50px;
     padding-top: 10px;
 }
-#hero-img{
-    width: 100%;
-    display: grid;
-    grid-column: 1/3;
-    grid-row: 1/3;
-}
+
 .rivers-card, .camping-card, .rapids-card{
     margin: 200px 0;
 }
@@ -168,10 +163,10 @@ nav {
     display: flex;
     justify-content: space-around;
 }
-#hero {
-    display: grid;
-    grid-template-columns: 1fr 3fr 1fr;
-    margin-top: -100px;
+
+#hero-img{
+    width: 100%;
+
 }
 #hero-box {
     grid-column: 1/4;
