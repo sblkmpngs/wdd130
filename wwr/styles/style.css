@@ -2,9 +2,8 @@
 
 
 
-div content {
+content {
     max-width: 1600px;
-    max-height: 1600px;
     margin: 0 auto;
     
 }
@@ -24,7 +23,7 @@ div content {
 
  nav a {
     text-align: center;
-    color: #d06305;
+    color: white;
     text-decoration: none;
     padding: 35px;
  }
@@ -43,12 +42,13 @@ div content {
 
  #background {
     height: 725px;
+    background-color: #7cd4d4;
     grid-column: 1/11;
     grid-row: 4/9;
  }
 
  body {
-    background-color: #7cd4d4;
+    background-color: white;
     font-family: Mooli, sans-serif,Arial;
     text-align: center;
     font-size: 22px;
@@ -61,13 +61,13 @@ div content {
  }
 
  header {
-    background-color: #ffffff;
+    background-color: #7cd4d4;
     display: grid;
     grid-template-columns: 150px auto;
  }
  nav a:hover{
-    background-color: #d06305;
-    color: white;
+    background-color: white;
+    color: #d06305;
  }
 
 .home-title {
@@ -94,6 +94,7 @@ h4{
 
 
 .book:hover,.join:hover{
+    background-color: #7cd4d4;
     color: black;   
 }
 .msg h2{
@@ -129,8 +130,7 @@ footer a{
     text-decoration: none;
 }
 footer a:hover{
-    background-color: #ffffff;
-    color: black;
+    color: #7cd4d4;
 }
 footer .social img{
     padding-top: 15px;
@@ -148,7 +148,7 @@ footer .social img{
     margin: 200px 0;
 }
 .card-img {
-    border: 10px solid #ffffff;
+    border: 10px solid #7cd4d4;
     transition: transform .5s;
     box-shadow: 5px 5px 10px black;
 }
@@ -186,9 +186,9 @@ nav {
     grid-row: 1/2;
     margin-top: 400px;
 }
-main.home-grid{
+.home-grid{
     display: grid;
-    grid-template-columns: repeat(10, 10fr);
+    grid-template-columns: 10fr 10fr 10fr 10fr 10fr 10fr 10fr 10fr 10fr 10fr;
 }
 .card-img, .mountains {
     width: 100%;
@@ -196,17 +196,17 @@ main.home-grid{
 .rivers-card{
     grid-column: 2/4;
     grid-row: 2/3;
-    width: 100%;
+
 }
 .camping-card{
     grid-column: 5/7;
     grid-row: 2/3;
-    width: 100%;
+    
 }
 .rapids-card{
     grid-column: 8/10;
     grid-row: 2/3;
-    width: 100%;
+
 }
 .mountains{
     width: 100%;
