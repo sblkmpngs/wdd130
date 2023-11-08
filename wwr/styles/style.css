@@ -260,18 +260,20 @@ nav {
     max-width: 1600px;
     margin: 0 auto;
 }
+
 .info-grid {
 
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(5, 1fr);
 }
-.info-grid, #background{
+.info-grid, #rivers-background {
     background-color: #7cd4d4;
-    height: 1600px;
     grid-column: 1/6;
     grid-row: 1/6;
+    
 }
+
 .first-river {
     width: 100%;
     grid-column: 4/6;
