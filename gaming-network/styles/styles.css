@@ -15,7 +15,7 @@
 body {
     background-color: #f2f5ec;
     font-family: 'josefin sans', sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     margin: 0;
     padding: 0;
 }
@@ -153,7 +153,7 @@ body {
 .sub2-msg {
     grid-column: 2/6;
     grid-row: 8/10;
-    margin-top: -50px;
+    margin-top: -100px;
     color: #f2f5ec;
 }
 
