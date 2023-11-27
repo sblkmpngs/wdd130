@@ -52,20 +52,49 @@
                 the same week, for the first time for more than 30 years.</p>
             <p> Spider-Man 2 outperformed both in boxed sales to be the biggest physical video-game launch in the UK
                 last week. It is now one of the highest-rated PlayStation 5 titles on gaming-aggregator Metacritic.</p>
-            <p> Despite being the biggest physical launch of the year on PS5, the game has not yet reached the dizzying
-                heights of the Legend of Zelda: Tears of the Kingdom, which sold more than 10 million copies in just
-                three days.</p>
-            <p> That game, released by Nintendo in May, remains the biggest physical video game launch in the UK in
-                2023.</p>
-            <p> The physical sales of Spider-Man 2 only make up part of the total 2.5 million copies sold - which
-                Christopher Dring, head of gaming news site GamesIndustry.biz, said would have mainly been downloads.
-            </p>
-            <p> "The majority of games sold these days are digitally downloaded," he said.</p>
-            <p> "The market was heading in this direction before the pandemic hit - in 2019 in the UK, around half of
-                games were sold digitally while half were sold in physical stores, but since 2020, that number has
-                jumped and over 70% of games are downloaded.</p>
-            <p> "There are still millions of boxed games sold every year, and you can't download a console or a
-                controller. But it is now a much, much, much smaller part of the market."</p>
+            <div class="dropdown">
+                    <button onclick="myFunction()" class="dropbtn">More...</button>
+                <div id="myDropdown" class="dropdown-content">
+                      <p> Despite being the biggest physical launch of the year on PS5, the game has not yet reached the dizzying
+                        heights of the Legend of Zelda: Tears of the Kingdom, which sold more than 10 million copies in just
+                        three days.</p>
+                    <p> That game, released by Nintendo in May, remains the biggest physical video game launch in the UK in
+                        2023.</p>
+                    <p> The physical sales of Spider-Man 2 only make up part of the total 2.5 million copies sold - which
+                        Christopher Dring, head of gaming news site GamesIndustry.biz, said would have mainly been downloads.
+                    </p>
+                    <p> "The majority of games sold these days are digitally downloaded," he said.</p>
+                    <p> "The market was heading in this direction before the pandemic hit - in 2019 in the UK, around half of
+                        games were sold digitally while half were sold in physical stores, but since 2020, that number has
+                        jumped and over 70% of games are downloaded.</p>
+                    <p> "There are still millions of boxed games sold every year, and you can't download a console or a
+                        controller. But it is now a much, much, much smaller part of the market."</p>
+                </div>
+            </div>
+            <script>
+                /* When the user clicks on the button,
+                toggle between hiding and showing the dropdown content */
+                function myFunction() {
+                  document.getElementById("myDropdown").classList.toggle("show");
+                }
+                
+                function filterFunction() {
+                  var input, filter, ul, li, a, i;
+                  input = document.getElementById("myInput");
+                  filter = input.value.toUpperCase();
+                  div = document.getElementById("myDropdown");
+                  a = div.getElementsByTagName("a");
+                  for (i = 0; i < a.length; i++) {
+                    txtValue = a[i].textContent || a[i].innerText;
+                    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                      a[i].style.display = "";
+                    } else {
+                      a[i].style.display = "none";
+                    }
+                  }
+                }
+                </script>
+            
 
         </section>
         <section class="sub-heading">
