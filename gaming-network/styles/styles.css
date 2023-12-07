@@ -306,3 +306,120 @@ nav {
     grid-row: 3/4;
 
 }
+.heading-3{
+    text-align: center;
+    font-family: 'Nosifer', sans-serif;
+    font-size: 20px;
+    color: #7ab0bf;
+}
+.secondary-heading{
+    text-align: left;
+    font-family: 'Nosifer', sans-serif;
+    font-size: 17px;
+    color: #7ab0bf;
+    margin-left: 50px;
+}
+.home-grid-3{
+    font-family: 'josefin sans', sans-serif;
+    background-color: #f2f5ec;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.rev1-card{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+.rev1-img{
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: #7ab0bf;
+}
+.rev1-msg{
+    grid-column: 2/6;
+    grid-row: 1/2;
+    background-color: #7ab0bf;
+    color: #f2f5ec;
+}
+/* Dropdown Button */
+.dropbtn-2 {
+    background-color: #7ab0bf;
+    color: #f2f5ec;
+    font-family: 'Nosifer', sans-serif;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown button on hover & focus */
+  .dropbtn-2:hover {
+    background-color: #f2f5ec;
+    text-decoration: underline;
+    color: #7ab0bf;
+  }
+  
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown-2 {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content-2 {
+    display: none;
+    background-color: #7ab0bf;
+    border: none;
+  }
+   /* Change color of dropdown links on hover */
+  .dropdown-content-2 a:hover {background-color: #f2f5ec}
+  
+  /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+  .show {display:block;}
+
+.third-heading{
+    text-align: left;
+    font-family: 'Nosifer', sans-serif;
+    font-size: 17px;
+    color: #7ab0bf;
+    margin-left: 50px;
+}
+.rec1-card{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+.rec1-img{
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin-top: 100px;
+    border: 10px solid #81b4ba;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #7ab0bf;
+}
+.rec1-msg{
+    grid-column: 3/6;
+    grid-row: 3/4;
+    color: #7ab0bf;
+}
+.rec2-card{
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+.rec2-img{
+    width: 100%;
+    grid-column: 1/2;
+    grid-row: 5/6;
+    margin-top: 100px;
+    border: 10px solid #81b4ba;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #7ab0bf;
+}
+.rec2-msg{
+    grid-column: 3/6;
+    grid-row: 5/6;
+    color: #7ab0bf;
+}
+
